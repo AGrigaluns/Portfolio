@@ -2,6 +2,12 @@
   color: #c9ff89;
 }
 
+.lang {
+  padding: 30px;
+  float: right;
+  margin-left: -50px;
+}
+
 .nav {
   margin-right: 20px;
 }
@@ -103,4 +109,16 @@ html {
 
 h4 {
   text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    width: 100%;
+  }
 }
