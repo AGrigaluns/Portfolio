@@ -3,17 +3,19 @@
 }
 
 .lang {
+  display: none;
   padding: 30px;
   float: right;
   margin-left: -50px;
 }
 
 .nav {
+  display: none;
   margin-right: 20px;
 }
 
 body {
-  width: 800px;
+  width: 60%;
   margin: 0 auto;
   background-color: #292929;
   color: #ffffff;
@@ -34,6 +36,10 @@ body {
 }
 #content div > div {
   border-bottom: none;
+}
+
+.text {
+  display: none;
 }
 
 .p {
@@ -67,6 +73,24 @@ body {
   font-weight: bolder;
 }
 
+progress {
+  display: block;
+  width: 92%;
+}
+
+progress[value] {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 30px;
+  border: 3px solid #c9ff89;
+  border-radius: 5px 5px;
+}
+
+::-moz-progress-bar {
+   background: #398751;
+}
+
+
 .image-cropper {
   width: 200px;
   height: 200px;
@@ -76,7 +100,7 @@ body {
 }
 
 .profile-pic {
-  margin: -25% auto 0;
+  margin: -2% auto 0;
   height: auto;
   width: 100%;
 }
