@@ -3,14 +3,14 @@
 }
 
 .lang {
-  display: none;
+  /*display: none;*/
   padding: 30px;
   float: right;
   margin-left: -50px;
 }
 
 .nav {
-  display: none;
+  /*display: none;*/
   margin-right: 20px;
 }
 
